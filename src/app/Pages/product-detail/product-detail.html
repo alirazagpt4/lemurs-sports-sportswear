@@ -1,0 +1,31 @@
+<div class="page-header">
+  <h1>{{ product?.title }} Details</h1>
+</div>
+
+<div class="detail-wrapper" *ngIf="product">
+  <mat-card class="product-card">
+    <img
+      mat-card-image
+      [src]="product.imageUrl"
+      alt="{{ product.title }}"
+      class="product-img"
+    />
+
+    <mat-card-title class="product-title">{{ product.title }}</mat-card-title>
+
+    <mat-card-content>
+      <p class="product-description">
+        Contact us on WhatsApp for more details!
+      </p>
+    </mat-card-content>
+
+    <mat-card-actions class="card-actions">
+      <a [href]="whatsappLink" target="_blank" class="whatsapp-link">
+        <button mat-raised-button color="primary" class="whatsapp-button">
+          <img src="images/WhatsApp.svg.webp" width="24" height="24" />
+          <span>Chat on WhatsApp</span>
+        </button>
+      </a>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,22 @@
+<div class="home-wrapper">
+  <div class="intro-text">
+    <h1>Welcome to Alex Sportswear</h1>
+    <p>Select a category to explore our products</p>
+  </div>
+
+  <div class="card-container">
+    <mat-card class="category-card men-card" (click)="goToCategory('men')">
+      <div class="card-content">
+        <h2>👕 Men</h2>
+        <p>Explore our men’s collection</p>
+      </div>
+    </mat-card>
+
+    <mat-card class="category-card women-card" (click)="goToCategory('women')">
+      <div class="card-content">
+        <h2>👗 Women</h2>
+        <p>Discover the latest for women</p>
+      </div>
+    </mat-card>
+  </div>
+</div>

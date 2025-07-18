@@ -1,0 +1,25 @@
+[
+  { "id": 1, "title": "Submilimation Hoodie - Green", "imageUrl": "/images/Hoodie-5.jpg", "category": "men" },
+  { "id": 2, "title": "Submilimation Hoodie - Red", "imageUrl": "/images/Hoodie-7.jpg", "category": "men" },
+  { "id": 3, "title": "Submilimation Hoodie - Blue", "imageUrl": "/images/hoodie.jpg", "category": "men" },
+  { "id": 4, "title": "Submilimation Long Shirt", "imageUrl": "/images/long-shirts-sub-11.jpg", "category": "men" },
+  { "id": 5, "title": "Sublimation polo", "imageUrl": "/images/polo 1.jpg", "category": "men" },
+
+  { "id": 6, "title": "Softball Jersey - Red", "imageUrl": "/images/6.jpg", "category": "women" },
+  { "id": 7, "title": "Softball Jersey - Blue", "imageUrl": "/images/7.jpeg", "category": "women" },
+  { "id": 8, "title": "Softball Jersey - Black", "imageUrl": "/images/8.webp", "category": "women" },
+  { "id": 9, "title": "Softball Jersey - White", "imageUrl": "/images/9.jpg", "category": "women" },
+  { "id": 10, "title": "Softball Jersey - Green", "imageUrl": "/images/10.jpg", "category": "women" },
+
+  { "id": 11, "title": "Shots ", "imageUrl": "/images/shots 1.jpg", "category": "men" },
+  { "id": 12, "title": "Sublimation polo", "imageUrl": "/images/polo 2.jpg", "category": "men" },
+  { "id": 13, "title": "Baseball Uniform", "imageUrl": "/images/13.jpeg", "category": "men" },
+  { "id": 14, "title": "Baseball Uniform", "imageUrl": "/images/14.avif", "category": "men" },
+  { "id": 15, "title": "Baseball Uniform", "imageUrl": "/images/15.webp", "category": "men" },
+
+  { "id": 16, "title": "Leggie - Green", "imageUrl": "/images/16.jpeg", "category": "women" },
+  { "id": 17, "title": "Baseball Jersey - Yellow", "imageUrl": "/images/17.jpeg", "category": "women" },
+  { "id": 18, "title": "Softball Jersey - Orange", "imageUrl": "/images/18.jpg", "category": "women" },
+  { "id": 19, "title": "Leggie - Orange", "imageUrl": "/images/19.jpg", "category": "women" },
+  { "id": 20, "title": "Baseball Jersey - Navy Blue", "imageUrl": "/images/20.jpeg", "category": "men" }
+]

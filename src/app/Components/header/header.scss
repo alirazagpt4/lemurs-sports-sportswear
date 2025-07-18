@@ -1,0 +1,47 @@
+.custom-toolbar {
+  // White background with shadow
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  padding: 0 16px;
+}
+
+.toolbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #1DB954, #1de982); // green gradient
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar-right a {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #1DB954; // greenish text
+  margin-left: 12px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.toolbar-right a:hover {
+  color: #14833b;
+}
+
+
+a[mat-button] {
+  cursor: pointer;
+}
