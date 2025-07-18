@@ -1,3 +1,58 @@
+.sidenav-container {
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.side-nav {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.custom-toolbar {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.desktop-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.mobile-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: inline-flex;
+    margin-right: 10px;
+  }
+}
+
+
 .custom-toolbar {
   // White background with shadow
   background: #ffffff;
@@ -40,7 +95,6 @@
 .toolbar-right a:hover {
   color: #14833b;
 }
-
 
 a[mat-button] {
   cursor: pointer;
