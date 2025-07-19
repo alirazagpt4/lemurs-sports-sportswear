@@ -1,35 +1,34 @@
 <mat-sidenav-container class="sidenav-container">
-  <!-- Side Menu -->
-  <mat-sidenav #sidenav class="side-nav" mode="over">
+  <!-- Drawer -->
+  <mat-sidenav #drawer mode="over" class="side-nav">
     <mat-nav-list>
-      <a mat-list-item routerLink="/" (click)="sidenav.close()">Home</a>
-      <a mat-list-item routerLink="/products/men" (click)="sidenav.close()">Men</a>
-      <a mat-list-item routerLink="/products/women" (click)="sidenav.close()">Women</a>
+      <a mat-list-item routerLink="/" (click)="drawer.close()">Home</a>
+      <a mat-list-item routerLink="/products/men" (click)="drawer.close()">Men</a>
+      <a mat-list-item routerLink="/products/women" (click)="drawer.close()">Women</a>
     </mat-nav-list>
   </mat-sidenav>
 
-  <!-- Top Toolbar -->
+  <!-- Toolbar -->
   <mat-toolbar class="custom-toolbar">
-    <!-- Hamburger Menu (visible on mobile) -->
-    <button mat-icon-button (click)="sidenav.toggle()" class="mobile-toggle">
+    <!-- Hamburger (for mobile only) -->
+    <button mat-icon-button class="mobile-toggle" (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
 
-    <!-- Logo & Title -->
+    <!-- Logo -->
     <img src="./ALEX[1].jpg" class="logo-img" />
     <span class="brand-text">Alex Sportswear</span>
 
-    <!-- Spacer -->
     <span class="spacer"></span>
 
-    <!-- Desktop Nav Links -->
-    <div class="desktop-nav">
+    <!-- Desktop links -->
+    <div class="toolbar-right">
       <a mat-button routerLink="/">Home</a>
       <a mat-button routerLink="/products/men">Men</a>
       <a mat-button routerLink="/products/women">Women</a>
     </div>
   </mat-toolbar>
 
-  <!-- Content slot -->
+  <!-- Slot -->
   <ng-content></ng-content>
 </mat-sidenav-container>
