@@ -5,7 +5,9 @@ import { Home } from './Pages/home/home';
 
 const routes: Routes = [
     { path: '', component: Home },
-    { path: 'products/:category', component: ProductList },
+    { path: 'products/:category', 
+      loadComponent: () => import('./Pages/product-list/product-list.js').then(m => m.ProductList)
+     },
     { path: 'product/:id', component: ProductDetail }
   ];
 
