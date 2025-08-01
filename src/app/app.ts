@@ -53,7 +53,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'Arslan-Webapp';
+  protected title = 'OceanStyleAppreal';
   isLoading = false;
 
   constructor(private router: Router) {
