@@ -28,6 +28,6 @@ export class ProductDetail implements OnInit {
 
   get whatsappLink(): string {
     const text = encodeURIComponent(`Hello, I am interested in:\n\n*${this.product.title}*`);
-    return `https://wa.me/923473626700?text=${text}`; // <-- update with real number
+    return `https://wa.me/923338637714?text=${text}`; // <-- update with real number
   }
 }
